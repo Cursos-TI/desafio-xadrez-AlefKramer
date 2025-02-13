@@ -13,3 +13,12 @@ void moverBispo() {
     }
     printf("\n");
 }
+
+// Função para movimentação da Torre (para a direita)
+void moverTorre() {
+    printf("Movimentação da Torre:\n");
+    for (int i = 1; i <= TORRE_MOV; i++) {
+        printf("Direita - Passo %d\n", i);
+    }
+    printf("\n");
+}
