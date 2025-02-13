@@ -31,3 +31,12 @@ void moverRainha() {
     }
     printf("\n");
 }
+
+int main() {
+    // Chamando as funções de movimentação
+    moverBispo();
+    moverTorre();
+    moverRainha();
+    
+    return 0;
+}
