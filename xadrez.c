@@ -22,3 +22,12 @@ void moverTorre() {
     }
     printf("\n");
 }
+
+// Função para movimentação da Rainha (para a esquerda)
+void moverRainha() {
+    printf("Movimentação da Rainha:\n");
+    for (int i = 1; i <= RAINHA_MOV; i++) {
+        printf("Esquerda - Passo %d\n", i);
+    }
+    printf("\n");
+}
